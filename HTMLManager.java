@@ -9,5 +9,12 @@ public class HTMLManager {
       }
       
       tag = new LinkedList<HTMLTag>();
+      
+      int size = html.size();
+      for (int i = 0; i < size; i++) {
+          HTMLTag tag = html.remove();
+          tags.add(tag);
+          html.add(tag);
+      }
   }
 }
