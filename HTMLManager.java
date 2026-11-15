@@ -33,4 +33,14 @@ public class HTMLManager {
       
       return result;
   }
+  public void fixHTML() {
+       Stack<HTMLTag> stack = new Stack<HTMLTag>();
+       Queue<HTMLTag> fixed = new Queue<HTMLTag>();
+       
+       while (!html.isEmpty()) {
+           HTMLTag current = html.remove();
+           
+           A
+       }
+  }
 }
