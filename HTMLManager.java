@@ -17,4 +17,7 @@ public class HTMLManager {
           html.add(tag);
       }
   }
+  public Queue<HTMLTag> getTags() {
+        return tags;
+  }
 }
